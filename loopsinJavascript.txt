@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("This is a loopin javascript");
+        let i=0;
+        for(let i=0; i<3; i++){
+            console.log(i);     
+        }
+    // Loops in JS to iterate arrays
+
+        let friends=["anonymous", "Tangible", "Famous"];
+        friends.forEach(function f(element){
+            console.log(friends);
+        });
+
+
+
+        // objects and loop for the object iteration
+
+        let obj = {
+            name:"SAKN",
+            salary:24,
+            channel:"CWH",
+        }
+        for(key in obj){
+            console.log(`The ${key} of obj ${obj [key]}`);
+        }
+
+
+
+        // while loop in JS
+
+        let h = 0; 
+        while(h<5){
+            console.log(`${h} is less than 5`);
+            h=h+1;
+        }
+
+
+        // do-while  loop in javascript.
+        let h1=57;
+        do{
+            console.log(`${h1} is less than 67`);
+            h1=h1+1;
+        }while(h1<67);
+
+        
+
+        
+    </script>
+</body>
+</html>
